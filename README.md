@@ -1,0 +1,2 @@
+# HolisticWare.DotNetNew.ProjectsStructureTemplate.Architecture
+HolisticWare.DotNetNew.ProjectsStructureTemplate.Architecture
