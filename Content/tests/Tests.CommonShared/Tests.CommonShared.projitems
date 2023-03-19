@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{13AB4AD2-D077-48E0-B6F2-791BC25EB413}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Tests.CommonShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)NuGet\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Maven\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ComponentGovernance\" />
+    <Folder Include="$(MSBuildThisFileDirectory)GitHub\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Android.Developer.ReleaseNotesScraping\" />
+    <Folder Include="$(MSBuildThisFileDirectory)FassBinderMeister.BindEx\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Binderator.Artifact\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Core\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Core\Net\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Core\Net\HTTP\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Core\Net\HTTP\IO\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister\Binderator.Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister.Core\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister.Extensions\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Maven.Repositories\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Maven\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Maven\Repositories\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Tools.Maven\RepositoryAgnosticDiscovery\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Net\HTTP\HttpClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Net\HTTP\IO\Test_FileSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HttpClient.cs" />
+    <!-- 
+      NuGet
+    -->
+    <Compile Include="$(MSBuildThisFileDirectory)NuGet\ClientAPI\NuGetClient_Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NuGet\ClientAPI\NuGetPackage_Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NuGet\ClientAPI\NuGetPackages_Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NuGet\ServerAPI\NuGetClient_Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NuGet\ServerAPI\NuGetPackage_Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NuGet\ServerAPI\NuGetPackages_Test.cs" />
+    <!-- 
+      Maven
+    -->
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Artifact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\GroupIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\MasterIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\MasterIndexGoogle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\MavenClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\MavenRepositoryGoogle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\MavenRepositoryMavenCentral.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\Google\Artifact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\Google\Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\Google\GroupIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\Google\MasterIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\Google\Repository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\Google\Repository.MasterIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\Google\Repository.Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\MavenCentralSonatype\Artifact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\MavenCentralSonatype\Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\MavenCentralSonatype\Repository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\MavenCentralSonatype\Repository.MasterIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\Repositories\MavenCentralSonatype\Repository.Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\RepositoryAgnosticDiscovery\Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maven\RepositoryAgnosticDiscovery\Repository.cs" />
+    <!-- 
+      ComponentGovernance
+    -->
+    <Compile Include="$(MSBuildThisFileDirectory)ComponentGovernance\ComponentGovernanceManifest_cgmsinfest_json.cs" />
+    <!-- 
+      GitHub
+    -->
+    <Compile Include="$(MSBuildThisFileDirectory)GitHub\GitHubClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Android.Developer.ReleaseNotesScraping\ReleaseNotesHTMLData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FassBinderMeister.BindEx\Artifact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FassBinderMeister.BindEx\ArtifactBindingNugetData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Binderator.Artifact\Artifact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BinderatorConfigsFetcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister\ProjectData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister\Binderator.Config\Binderator.Config_AndroidX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister\Binderator.Config\Binderator.Config_GooglePlayServicesComponents.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools.Bindings.XamarinAndroid.FassBinderMeister\Binderator.Config\BinderatorConfigsFetcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\AndroidX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\GooglePlayServices-Firebase-MLKit.cs" />
+  </ItemGroup>
+</Project>
