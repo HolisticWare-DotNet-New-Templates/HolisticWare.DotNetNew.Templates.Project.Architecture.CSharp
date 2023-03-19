@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.161
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.NetSandard", "ProjectsStructureTemplate.BusinessDomainLogic.Library.NetSandard\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetSandard.csproj", "{AA7A2E58-B4D1-4632-BCD1-4F18CCAB8D2F}"
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProjectsStructureTemplate.BusinessDomainLogic.Shared", "ProjectsStructureTemplate.BusinessDomainLogic.Shared\ProjectsStructureTemplate.BusinessDomainLogic.Shared.shproj", "{FED5275D-B937-4065-9A08-C17B2D704A14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE6F4EAC-5B3E-4171-BAA5-1997DAE416ED}"
@@ -15,19 +13,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI", "ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI.csproj", "{F3F19165-CC1E-4DF7-AF1A-0771E80C7D19}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessDomainLogic", "BusinessDomainLogic", "{76BC0A81-E379-4401-B19A-D81351C4DE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard", "ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard.csproj", "{8FDBACA8-34C4-4ACC-A772-C701263D0666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA7A2E58-B4D1-4632-BCD1-4F18CCAB8D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA7A2E58-B4D1-4632-BCD1-4F18CCAB8D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA7A2E58-B4D1-4632-BCD1-4F18CCAB8D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA7A2E58-B4D1-4632-BCD1-4F18CCAB8D2F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3F19165-CC1E-4DF7-AF1A-0771E80C7D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3F19165-CC1E-4DF7-AF1A-0771E80C7D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3F19165-CC1E-4DF7-AF1A-0771E80C7D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3F19165-CC1E-4DF7-AF1A-0771E80C7D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDBACA8-34C4-4ACC-A772-C701263D0666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDBACA8-34C4-4ACC-A772-C701263D0666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDBACA8-34C4-4ACC-A772-C701263D0666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDBACA8-34C4-4ACC-A772-C701263D0666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3F19165-CC1E-4DF7-AF1A-0771E80C7D19} = {76BC0A81-E379-4401-B19A-D81351C4DE4E}
+		{FED5275D-B937-4065-9A08-C17B2D704A14} = {76BC0A81-E379-4401-B19A-D81351C4DE4E}
+		{8FDBACA8-34C4-4ACC-A772-C701263D0666} = {76BC0A81-E379-4401-B19A-D81351C4DE4E}
 	EndGlobalSection
 EndGlobal
