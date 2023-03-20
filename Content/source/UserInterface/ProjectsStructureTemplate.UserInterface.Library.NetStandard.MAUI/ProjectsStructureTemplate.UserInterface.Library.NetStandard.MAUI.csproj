@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <LangVersion>10.0</LangVersion>
+
+    <!--
+	<UseMaui>true</UseMaui>
+	<UseMauiEssentials>true</UseMauiEssentials>
+    -->
+	<SingleProject>true</SingleProject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\" />
+    <None Remove="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+</Project>

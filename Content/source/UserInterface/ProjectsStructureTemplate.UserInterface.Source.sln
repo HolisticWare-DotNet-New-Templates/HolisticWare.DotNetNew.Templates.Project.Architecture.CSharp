@@ -19,6 +19,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProjectsStructureTemplate.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI", "..\BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI.csproj", "{2239F7F0-F88D-4D55-A68A-DBA9FB297EA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI", "ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI\ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI.csproj", "{7C307164-7D4A-4F76-991A-3B65B1482455}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2239F7F0-F88D-4D55-A68A-DBA9FB297EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2239F7F0-F88D-4D55-A68A-DBA9FB297EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2239F7F0-F88D-4D55-A68A-DBA9FB297EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C307164-7D4A-4F76-991A-3B65B1482455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C307164-7D4A-4F76-991A-3B65B1482455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C307164-7D4A-4F76-991A-3B65B1482455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C307164-7D4A-4F76-991A-3B65B1482455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6DC72939-D0B3-4E17-B7B7-AC811A1E34B8} = {4B66AE4D-087B-460D-B966-99CA020525F3}
@@ -53,5 +59,6 @@ Global
 		{E44E5718-9048-449C-86FE-91DE7E052BE9} = {6E365F00-7799-43B1-A022-2FCB5E1FD9D7}
 		{FED5275D-B937-4065-9A08-C17B2D704A14} = {6E365F00-7799-43B1-A022-2FCB5E1FD9D7}
 		{2239F7F0-F88D-4D55-A68A-DBA9FB297EA5} = {6E365F00-7799-43B1-A022-2FCB5E1FD9D7}
+		{7C307164-7D4A-4F76-991A-3B65B1482455} = {4B66AE4D-087B-460D-B966-99CA020525F3}
 	EndGlobalSection
 EndGlobal
