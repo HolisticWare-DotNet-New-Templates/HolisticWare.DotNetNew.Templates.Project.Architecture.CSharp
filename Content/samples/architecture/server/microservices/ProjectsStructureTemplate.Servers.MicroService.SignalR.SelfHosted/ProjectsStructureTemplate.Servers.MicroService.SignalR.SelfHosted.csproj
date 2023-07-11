@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <!--
+    Program.cs(1,1):
+    Error CS8805:
+    Program using top-level statements must be an executable.
+    -->
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Hubs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <!--
+    <UserSecretsId>dotnet-DotNet.ContainerImage-2e40c179-a00b-4cc9-9785-54266210b7eb</UserSecretsId>
+    <ContainerImageName>dotnet-worker-image</ContainerImageName>
+    -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/
+      https://learn.microsoft.com/en-us/dotnet/core/docker/publish-as-container
+      https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows
+
+      base image (“mcr.microsoft.com/dotnet/aspnet:7.0”) is based on Debian
+
+      dotnet publish \
+        -c Release \
+          \-\-os linux \
+            \-\-arch x64 \
+            -p:PublishProfile=DefaultContainer
+
+      dotnet publish \
+        -c Release \
+          \-\-os linux \
+            \-\-arch x64 \
+            -p:PublishProfile=DefaultContainer \
+            -p:ContainerBaseImage=mcr.microsoft.com/dotnet/aspnet:7.0-alpine
+
+      dotnet publish \
+        -c Release \
+          \-\-os linux \
+            \-\-arch x64 \
+            -p:PublishProfile=DefaultContainer \
+            -p:ContainerBaseImage=mcr.microsoft.com/dotnet/aspnet:7.0-alpine \
+            -p:ContainerImageName=REST.WebAPI
+
+      <ContainerPort Include="80" Type="tcp" />
+      <ContainerLabel Include="org.contoso.businessunit" Value="contoso-university" />
+      <ContainerEnvironmentVariable Include="LOGGER_VERBOSITY" Value="Trace" />
+
+    -->
+    <PackageReference Include="Microsoft.NET.Build.Containers" Version="7.0.305" />
+  </ItemGroup>
+
+</Project>

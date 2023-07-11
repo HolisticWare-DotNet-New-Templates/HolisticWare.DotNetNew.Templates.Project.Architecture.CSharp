@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.Servers.REST.WebAPI", "ProjectsStructureTemplate.Servers.REST.WebAPI\ProjectsStructureTemplate.Servers.REST.WebAPI.csproj", "{1CD2A8EC-BD7C-4A9F-834C-08D43622CF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.Servers.gRPC", "ProjectsStructureTemplate.Servers.gRPC\ProjectsStructureTemplate.Servers.gRPC.csproj", "{A99BBDE5-1A2A-49A5-AA6E-8E7F27E18496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD2A8EC-BD7C-4A9F-834C-08D43622CF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD2A8EC-BD7C-4A9F-834C-08D43622CF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD2A8EC-BD7C-4A9F-834C-08D43622CF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD2A8EC-BD7C-4A9F-834C-08D43622CF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99BBDE5-1A2A-49A5-AA6E-8E7F27E18496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99BBDE5-1A2A-49A5-AA6E-8E7F27E18496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99BBDE5-1A2A-49A5-AA6E-8E7F27E18496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99BBDE5-1A2A-49A5-AA6E-8E7F27E18496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
