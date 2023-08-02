@@ -18,9 +18,5 @@
         <CreatePackage>false</CreatePackage>
     </PropertyGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\..\..\..\..\source\UserInterface\ProjectsStructureTemplate.UserInterface.Library.NetStandard\ProjectsStructureTemplate.UserInterface.Library.NetStandard.csproj" />
-    </ItemGroup>
-
 </Project>
    

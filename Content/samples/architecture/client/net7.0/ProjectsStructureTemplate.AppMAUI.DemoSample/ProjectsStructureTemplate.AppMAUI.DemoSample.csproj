@@ -92,7 +92,14 @@
 	</ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\..\..\..\..\source\UserInterface\ProjectsStructureTemplate.UserInterface.Library.NetStandard\ProjectsStructureTemplate.UserInterface.Library.NetStandard.csproj" />
+		<!--
         <ProjectReference Include="..\..\..\..\..\source\UserInterface\net7.0\ProjectsStructureTemplate.UserInterface.Library.MAUI\ProjectsStructureTemplate.UserInterface.Library.MAUI.csproj" />
+		-->
+    </ItemGroup>
+    <ItemGroup>
+		<!--
+		-->
     </ItemGroup>
 
 </Project>
