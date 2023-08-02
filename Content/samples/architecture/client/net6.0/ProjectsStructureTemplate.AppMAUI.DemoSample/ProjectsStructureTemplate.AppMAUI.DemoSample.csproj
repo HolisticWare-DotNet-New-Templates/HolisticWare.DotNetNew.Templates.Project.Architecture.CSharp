@@ -89,4 +89,8 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\..\source\UserInterface\net7.0\ProjectsStructureTemplate.UserInterface.Library.MAUI\ProjectsStructureTemplate.UserInterface.Library.MAUI.csproj" />
+    </ItemGroup>
+
 </Project>
