@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.161
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.MAUI", "ProjectsStructureTemplate.UserInterface.Library.MAUI\ProjectsStructureTemplate.UserInterface.Library.MAUI.csproj", "{6DC72939-D0B3-4E17-B7B7-AC811A1E34B8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.NetStandard", "ProjectsStructureTemplate.UserInterface.Library.NetStandard\ProjectsStructureTemplate.UserInterface.Library.NetStandard.csproj", "{2C699EDC-C062-4862-8AEC-2B2E78EFBFA2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.Razor", "ProjectsStructureTemplate.UserInterface.Library.Razor\ProjectsStructureTemplate.UserInterface.Library.Razor.csproj", "{AD1CA877-5EE6-463D-8CD3-4269B32F34E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{4B66AE4D-087B-460D-B966-99CA020525F3}"
 EndProject
@@ -21,24 +17,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI", "ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI\ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI.csproj", "{7C307164-7D4A-4F76-991A-3B65B1482455}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net6.0", "net6.0", "{7F054B45-E076-4C5C-ABCC-E2B6E0F19745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.Razor", "net6.0\ProjectsStructureTemplate.UserInterface.Library.Razor\ProjectsStructureTemplate.UserInterface.Library.Razor.csproj", "{37529EED-0B00-43C8-B846-43B2648B0086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.MAUI", "net6.0\ProjectsStructureTemplate.UserInterface.Library.MAUI\ProjectsStructureTemplate.UserInterface.Library.MAUI.csproj", "{D8EB2101-FFC5-439E-BEFD-4C7BC3AEAF3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6DC72939-D0B3-4E17-B7B7-AC811A1E34B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DC72939-D0B3-4E17-B7B7-AC811A1E34B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DC72939-D0B3-4E17-B7B7-AC811A1E34B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DC72939-D0B3-4E17-B7B7-AC811A1E34B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C699EDC-C062-4862-8AEC-2B2E78EFBFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C699EDC-C062-4862-8AEC-2B2E78EFBFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C699EDC-C062-4862-8AEC-2B2E78EFBFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C699EDC-C062-4862-8AEC-2B2E78EFBFA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD1CA877-5EE6-463D-8CD3-4269B32F34E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD1CA877-5EE6-463D-8CD3-4269B32F34E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD1CA877-5EE6-463D-8CD3-4269B32F34E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD1CA877-5EE6-463D-8CD3-4269B32F34E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E44E5718-9048-449C-86FE-91DE7E052BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E44E5718-9048-449C-86FE-91DE7E052BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E44E5718-9048-449C-86FE-91DE7E052BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,14 +45,23 @@ Global
 		{7C307164-7D4A-4F76-991A-3B65B1482455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C307164-7D4A-4F76-991A-3B65B1482455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C307164-7D4A-4F76-991A-3B65B1482455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37529EED-0B00-43C8-B846-43B2648B0086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37529EED-0B00-43C8-B846-43B2648B0086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37529EED-0B00-43C8-B846-43B2648B0086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37529EED-0B00-43C8-B846-43B2648B0086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EB2101-FFC5-439E-BEFD-4C7BC3AEAF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EB2101-FFC5-439E-BEFD-4C7BC3AEAF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EB2101-FFC5-439E-BEFD-4C7BC3AEAF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EB2101-FFC5-439E-BEFD-4C7BC3AEAF3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6DC72939-D0B3-4E17-B7B7-AC811A1E34B8} = {4B66AE4D-087B-460D-B966-99CA020525F3}
 		{2C699EDC-C062-4862-8AEC-2B2E78EFBFA2} = {4B66AE4D-087B-460D-B966-99CA020525F3}
-		{AD1CA877-5EE6-463D-8CD3-4269B32F34E6} = {4B66AE4D-087B-460D-B966-99CA020525F3}
 		{E44E5718-9048-449C-86FE-91DE7E052BE9} = {6E365F00-7799-43B1-A022-2FCB5E1FD9D7}
 		{FED5275D-B937-4065-9A08-C17B2D704A14} = {6E365F00-7799-43B1-A022-2FCB5E1FD9D7}
 		{2239F7F0-F88D-4D55-A68A-DBA9FB297EA5} = {6E365F00-7799-43B1-A022-2FCB5E1FD9D7}
 		{7C307164-7D4A-4F76-991A-3B65B1482455} = {4B66AE4D-087B-460D-B966-99CA020525F3}
+		{7F054B45-E076-4C5C-ABCC-E2B6E0F19745} = {4B66AE4D-087B-460D-B966-99CA020525F3}
+		{37529EED-0B00-43C8-B846-43B2648B0086} = {7F054B45-E076-4C5C-ABCC-E2B6E0F19745}
+		{D8EB2101-FFC5-439E-BEFD-4C7BC3AEAF3B} = {7F054B45-E076-4C5C-ABCC-E2B6E0F19745}
 	EndGlobalSection
 EndGlobal

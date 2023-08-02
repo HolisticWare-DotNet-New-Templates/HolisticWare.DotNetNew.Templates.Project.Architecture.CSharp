@@ -8,5 +8,5 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.props" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.CSharp.targets" />
 
-  <Import Project="ProjectsStructureTemplate.BusinessDomainLogic.Shared.projitems" Label="Shared" />
+  <Import Project="ProjectsStructureTemplate.UserInterface.Shared.projitems" Label="Shared" />
 </Project>

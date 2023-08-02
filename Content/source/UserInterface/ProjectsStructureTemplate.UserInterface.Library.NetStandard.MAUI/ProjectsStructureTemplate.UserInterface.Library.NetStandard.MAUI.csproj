@@ -2,15 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <LangVersion>10.0</LangVersion>
-
     <!--
-	<UseMaui>true</UseMaui>
-	<UseMauiEssentials>true</UseMauiEssentials>
+	  <UseMaui>true</UseMaui>
+  	<UseMauiEssentials>true</UseMauiEssentials>
+	  <SingleProject>true</SingleProject>
     -->
-	<SingleProject>true</SingleProject>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
