@@ -1,0 +1,11 @@
+@ProjectsStructureTemplate.Servers.MicroService.REST.API_HostAddress = http://localhost:5273
+
+GET {{ProjectsStructureTemplate.Servers.MicroService.REST.API_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ProjectsStructureTemplate.Servers.MicroService.REST.API_HostAddress}}/todos/1
+Accept: application/json
+
+###

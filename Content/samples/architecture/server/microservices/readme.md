@@ -2,6 +2,20 @@
 
 readme.md
 
+tye
+
+https://timdeschryver.dev/blog/tye-starting-and-running-multiple-apis-with-a-single-command#configuring-your-environment
+
+https://devblogs.microsoft.com/dotnet/introducing-project-tye/
+
+```
+tye run 
+```
+
+```
+open http://localhost:8000
+```
+
 ## Running
 
 ```

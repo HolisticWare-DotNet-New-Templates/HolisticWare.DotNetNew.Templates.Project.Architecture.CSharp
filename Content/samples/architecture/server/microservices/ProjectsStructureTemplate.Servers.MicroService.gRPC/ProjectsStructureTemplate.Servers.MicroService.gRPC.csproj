@@ -56,8 +56,8 @@
       <ContainerLabel Include="org.contoso.businessunit" Value="contoso-university" />
       <ContainerEnvironmentVariable Include="LOGGER_VERBOSITY" Value="Trace" />
 
-    -->
     <PackageReference Include="Microsoft.NET.Build.Containers" Version="7.0.305" />
+    -->
   </ItemGroup>
 
 </Project>
