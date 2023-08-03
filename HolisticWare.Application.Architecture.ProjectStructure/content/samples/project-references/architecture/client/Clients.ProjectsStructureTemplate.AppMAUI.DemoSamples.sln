@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source-library", "source-library", "{D3E603AE-AD4B-4A94-A03E-7C5487958F0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessDomainLogic", "BusinessDomainLogic", "{E13C0A38-E551-4EDF-B074-20B4033342C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{F27A41FC-D78E-4128-9636-C25DF49DF54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard", "..\..\..\..\source\BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard.csproj", "{DB9B4F4D-4B15-44D0-BDDE-68A922A4E12F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI", "..\..\..\..\source\BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI.csproj", "{166855DA-7749-4967-BC89-DDD2F00F7F8C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProjectsStructureTemplate.BusinessDomainLogic.Shared", "..\..\..\..\source\BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Shared\ProjectsStructureTemplate.BusinessDomainLogic.Shared.shproj", "{FED5275D-B937-4065-9A08-C17B2D704A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.NetStandard", "..\..\..\..\source\UserInterface\ProjectsStructureTemplate.UserInterface.Library.NetStandard\ProjectsStructureTemplate.UserInterface.Library.NetStandard.csproj", "{3ABBE828-E9D4-4565-BB1F-238E7BEB1B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI", "..\..\..\..\source\UserInterface\ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI\ProjectsStructureTemplate.UserInterface.Library.NetStandard.MAUI.csproj", "{C0596093-F4F2-4531-90D0-B91805C00C3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net6.0", "net6.0", "{84AFF804-7CE0-47C7-ABB5-50DD81A1AA44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net7.0", "net7.0", "{63361EE2-6EC5-4E5D-8A23-F82FE1032C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.MAUI", "..\..\..\..\source\UserInterface\net6.0\ProjectsStructureTemplate.UserInterface.Library.MAUI\ProjectsStructureTemplate.UserInterface.Library.MAUI.csproj", "{B144F1E5-C941-418F-9D70-4E8DB6EDA862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.Razor", "..\..\..\..\source\UserInterface\net6.0\ProjectsStructureTemplate.UserInterface.Library.Razor\ProjectsStructureTemplate.UserInterface.Library.Razor.csproj", "{B1DA6131-3FC4-4857-A1E8-8AC640943DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9B4F4D-4B15-44D0-BDDE-68A922A4E12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9B4F4D-4B15-44D0-BDDE-68A922A4E12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9B4F4D-4B15-44D0-BDDE-68A922A4E12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9B4F4D-4B15-44D0-BDDE-68A922A4E12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166855DA-7749-4967-BC89-DDD2F00F7F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166855DA-7749-4967-BC89-DDD2F00F7F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166855DA-7749-4967-BC89-DDD2F00F7F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166855DA-7749-4967-BC89-DDD2F00F7F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABBE828-E9D4-4565-BB1F-238E7BEB1B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABBE828-E9D4-4565-BB1F-238E7BEB1B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABBE828-E9D4-4565-BB1F-238E7BEB1B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABBE828-E9D4-4565-BB1F-238E7BEB1B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0596093-F4F2-4531-90D0-B91805C00C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0596093-F4F2-4531-90D0-B91805C00C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0596093-F4F2-4531-90D0-B91805C00C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0596093-F4F2-4531-90D0-B91805C00C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B144F1E5-C941-418F-9D70-4E8DB6EDA862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B144F1E5-C941-418F-9D70-4E8DB6EDA862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B144F1E5-C941-418F-9D70-4E8DB6EDA862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B144F1E5-C941-418F-9D70-4E8DB6EDA862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DA6131-3FC4-4857-A1E8-8AC640943DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DA6131-3FC4-4857-A1E8-8AC640943DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DA6131-3FC4-4857-A1E8-8AC640943DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DA6131-3FC4-4857-A1E8-8AC640943DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E13C0A38-E551-4EDF-B074-20B4033342C6} = {D3E603AE-AD4B-4A94-A03E-7C5487958F0B}
+		{F27A41FC-D78E-4128-9636-C25DF49DF54A} = {D3E603AE-AD4B-4A94-A03E-7C5487958F0B}
+		{DB9B4F4D-4B15-44D0-BDDE-68A922A4E12F} = {E13C0A38-E551-4EDF-B074-20B4033342C6}
+		{166855DA-7749-4967-BC89-DDD2F00F7F8C} = {E13C0A38-E551-4EDF-B074-20B4033342C6}
+		{FED5275D-B937-4065-9A08-C17B2D704A14} = {E13C0A38-E551-4EDF-B074-20B4033342C6}
+		{3ABBE828-E9D4-4565-BB1F-238E7BEB1B93} = {F27A41FC-D78E-4128-9636-C25DF49DF54A}
+		{C0596093-F4F2-4531-90D0-B91805C00C3C} = {F27A41FC-D78E-4128-9636-C25DF49DF54A}
+		{84AFF804-7CE0-47C7-ABB5-50DD81A1AA44} = {F27A41FC-D78E-4128-9636-C25DF49DF54A}
+		{63361EE2-6EC5-4E5D-8A23-F82FE1032C4A} = {F27A41FC-D78E-4128-9636-C25DF49DF54A}
+		{B144F1E5-C941-418F-9D70-4E8DB6EDA862} = {84AFF804-7CE0-47C7-ABB5-50DD81A1AA44}
+		{B1DA6131-3FC4-4857-A1E8-8AC640943DB1} = {84AFF804-7CE0-47C7-ABB5-50DD81A1AA44}
+	EndGlobalSection
+EndGlobal

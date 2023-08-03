@@ -16,4 +16,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.15" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard.csproj" />
+    <ProjectReference Include="..\..\ProjectsStructureTemplate.UserInterface.Library.NetStandard\ProjectsStructureTemplate.UserInterface.Library.NetStandard.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\..\BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Shared\ProjectsStructureTemplate.BusinessDomainLogic.Shared.projitems" Label="Shared" />
+
 </Project>

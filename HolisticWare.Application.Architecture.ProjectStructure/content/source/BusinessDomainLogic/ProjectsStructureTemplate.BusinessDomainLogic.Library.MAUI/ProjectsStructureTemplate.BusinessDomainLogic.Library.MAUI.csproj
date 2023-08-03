@@ -22,4 +22,10 @@
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard.csproj" />
+	</ItemGroup>
+
+	<Import Project="..\ProjectsStructureTemplate.BusinessDomainLogic.Shared\ProjectsStructureTemplate.BusinessDomainLogic.Shared.projitems" Label="Shared" />
 </Project>

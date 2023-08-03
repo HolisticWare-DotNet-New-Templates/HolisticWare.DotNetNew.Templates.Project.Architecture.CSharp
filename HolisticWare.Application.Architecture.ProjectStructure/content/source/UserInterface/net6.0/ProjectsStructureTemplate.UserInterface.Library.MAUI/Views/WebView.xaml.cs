@@ -13,7 +13,7 @@ public partial class WebView :	ContentView
         return;
     }
 
-    protected void webview_Navigated(System.Object sender, Microsoft.Maui.Controls.WebNavigatingEventArgs e)
+    protected void webview_Navigated(System.Object sender, Microsoft.Maui.Controls.WebNavigatedEventArgs e)
     {
         return;
     }
