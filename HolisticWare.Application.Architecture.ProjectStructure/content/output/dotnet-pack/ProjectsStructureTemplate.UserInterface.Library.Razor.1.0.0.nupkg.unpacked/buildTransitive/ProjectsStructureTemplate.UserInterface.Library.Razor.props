@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/ProjectsStructureTemplate.UserInterface.Library.Razor.props" />
+</Project>

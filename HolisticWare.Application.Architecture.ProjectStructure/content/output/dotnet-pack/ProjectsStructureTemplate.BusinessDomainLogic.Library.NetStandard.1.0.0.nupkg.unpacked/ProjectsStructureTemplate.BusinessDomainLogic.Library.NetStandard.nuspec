@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard</id>
+    <version>1.0.0</version>
+    <authors>ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="a11cfb5f8ab07b321bb04248eb3ec38074fa4f80" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

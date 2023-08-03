@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ProjectsStructureTemplate.UserInterface.Library.MAUI</id>
+    <version>1.0.0</version>
+    <authors>ProjectsStructureTemplate.UserInterface.Library.MAUI</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+      <group targetFramework="net6.0-android31.0" />
+      <group targetFramework="net6.0-ios16.1">
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-maccatalyst16.1">
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
