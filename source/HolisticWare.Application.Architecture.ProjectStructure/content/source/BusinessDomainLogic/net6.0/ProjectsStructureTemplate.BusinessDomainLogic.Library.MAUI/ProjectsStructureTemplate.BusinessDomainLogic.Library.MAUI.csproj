@@ -27,5 +27,4 @@
 	  <ProjectReference Include="..\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard.csproj" />
 	</ItemGroup>
 
-	<Import Project="..\ProjectsStructureTemplate.BusinessDomainLogic.Shared\ProjectsStructureTemplate.BusinessDomainLogic.Shared.projitems" Label="Shared" />
 </Project>

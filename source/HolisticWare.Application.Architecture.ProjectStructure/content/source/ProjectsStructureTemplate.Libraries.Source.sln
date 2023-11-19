@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source-libraries", "source-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard", "BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard\ProjectsStructureTemplate.BusinessDomainLogic.Library.NetStandard.csproj", "{022FFE87-C586-4866-97FC-59AD11F38F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI", "BusinessDomainLogic\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI.csproj", "{F95C64E3-5B9C-49AF-BDBE-1CEBAC75F5D3}"
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProjectsStructureTemplate.UserInterface.Shared", "UserInterface\ProjectsStructureTemplate.UserInterface.Shared\ProjectsStructureTemplate.UserInterface.Shared.shproj", "{FED5275D-B937-4065-9A08-C17B2D704A14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessDomainLogic", "BusinessDomainLogic", "{8A5B9330-1E8E-4DE8-AAE8-1810A7563D76}"
@@ -25,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.UserInterface.Library.Razor", "UserInterface\net6.0\ProjectsStructureTemplate.UserInterface.Library.Razor\ProjectsStructureTemplate.UserInterface.Library.Razor.csproj", "{AE0DBF4A-C209-4FA5-A35F-7AC21F3B3645}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net6.0", "net6.0", "{12577AC0-6366-4F56-92F4-E0A2CDAF550F}"
+	ProjectSection(SolutionItems) = preProject
+		BusinessDomainLogic\net6.0\global.json = BusinessDomainLogic\net6.0\global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI", "BusinessDomainLogic\net6.0\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI\ProjectsStructureTemplate.BusinessDomainLogic.Library.MAUI.csproj", "{6399A5B8-BA96-412F-9967-DF3DCF44C7F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +40,6 @@ Global
 		{022FFE87-C586-4866-97FC-59AD11F38F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{022FFE87-C586-4866-97FC-59AD11F38F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{022FFE87-C586-4866-97FC-59AD11F38F14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F95C64E3-5B9C-49AF-BDBE-1CEBAC75F5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F95C64E3-5B9C-49AF-BDBE-1CEBAC75F5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F95C64E3-5B9C-49AF-BDBE-1CEBAC75F5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F95C64E3-5B9C-49AF-BDBE-1CEBAC75F5D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A8D3A63-F974-41EE-8D9C-6404571BA0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A8D3A63-F974-41EE-8D9C-6404571BA0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A8D3A63-F974-41EE-8D9C-6404571BA0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,10 +56,13 @@ Global
 		{AE0DBF4A-C209-4FA5-A35F-7AC21F3B3645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE0DBF4A-C209-4FA5-A35F-7AC21F3B3645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE0DBF4A-C209-4FA5-A35F-7AC21F3B3645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6399A5B8-BA96-412F-9967-DF3DCF44C7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6399A5B8-BA96-412F-9967-DF3DCF44C7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6399A5B8-BA96-412F-9967-DF3DCF44C7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6399A5B8-BA96-412F-9967-DF3DCF44C7F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{022FFE87-C586-4866-97FC-59AD11F38F14} = {8A5B9330-1E8E-4DE8-AAE8-1810A7563D76}
-		{F95C64E3-5B9C-49AF-BDBE-1CEBAC75F5D3} = {8A5B9330-1E8E-4DE8-AAE8-1810A7563D76}
 		{FED5275D-B937-4065-9A08-C17B2D704A14} = {7709C603-320A-43D8-9347-D30B830A59BB}
 		{8A5B9330-1E8E-4DE8-AAE8-1810A7563D76} = {D4D612F2-1945-4DA5-AB18-360BD80A27A2}
 		{7709C603-320A-43D8-9347-D30B830A59BB} = {D4D612F2-1945-4DA5-AB18-360BD80A27A2}
@@ -67,5 +71,7 @@ Global
 		{63606305-73D7-4E4F-98CB-343ABF41DA40} = {7709C603-320A-43D8-9347-D30B830A59BB}
 		{7D178228-1151-4D81-BAC8-42FBCB20FEEF} = {63606305-73D7-4E4F-98CB-343ABF41DA40}
 		{AE0DBF4A-C209-4FA5-A35F-7AC21F3B3645} = {63606305-73D7-4E4F-98CB-343ABF41DA40}
+		{12577AC0-6366-4F56-92F4-E0A2CDAF550F} = {8A5B9330-1E8E-4DE8-AAE8-1810A7563D76}
+		{6399A5B8-BA96-412F-9967-DF3DCF44C7F1} = {12577AC0-6366-4F56-92F4-E0A2CDAF550F}
 	EndGlobalSection
 EndGlobal
